@@ -29,7 +29,7 @@ public class BaseAPIClass {
 	@AfterSuite
 	public void asConfig() throws SQLException {
 		dLib.closeDB();
-		System.out.println("database connection closed");
+		System.out.println("database connection has been closed");
 	}
 	
 }
