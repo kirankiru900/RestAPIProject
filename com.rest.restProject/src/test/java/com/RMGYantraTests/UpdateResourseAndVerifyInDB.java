@@ -35,6 +35,6 @@ public class UpdateResourseAndVerifyInDB extends BaseAPIClass{
 		Reporter.log(actData, true);
 		
 		Assert.assertEquals(expData, actData);
-		Reporter.log("validation succesful", true);
+		Reporter.log("validation  succesful", true);
 	}
 }
